@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 gem 'rails', '3.2.3'
 gem 'mongo_mapper'
-gem 'sqlite3'
+
 gem "bson_ext", "~> 1.6.4"
 gem "scaffold"
 gem "puppet"
@@ -17,6 +17,12 @@ group :test do
   gem "factory_girl"
   # Pretty printed test output
   gem 'turn', :require => false
+end
+
+gem 'sqlite3', :group => [:development, :test]
+group :production do
+  gem 'thin'
+  gem 'pg'
 end
 
 gem 'jquery-rails'
