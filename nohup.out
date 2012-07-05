@@ -1,0 +1,189 @@
+[2012-07-05 15:53:27] INFO  WEBrick 1.3.1
+[2012-07-05 15:53:27] INFO  ruby 1.9.2 (2012-04-20) [x86_64-linux]
+[2012-07-05 15:53:27] INFO  WEBrick::HTTPServer#start: pid=4582 port=3000
+=> Booting WEBrick
+=> Rails 3.2.3 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-07-05 15:53:30 +0530
+Served asset /rails.png - 304 Not Modified (47ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-07-05 15:53:31 +0530
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-07-05 15:53:32 +0530
+Served asset /rails.png - 304 Not Modified (0ms)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+MONGODB [DEBUG] Logging level is currently :debug which could negatively impact client-side performance. You should set your logging level no lower than :info in production.
+MONGODB (0ms) admin['$cmd'].find({:ismaster=>1}).limit(-1)
+
+
+Started GET "/users" for 127.0.0.1 at 2012-07-05 16:14:40 +0530
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.5ms)
+Compiled scaffolds.css  (178ms)  (pid 4582)
+Compiled users.css  (3ms)  (pid 4582)
+Compiled application.css  (237ms)  (pid 4582)
+Compiled jquery.js  (2ms)  (pid 4582)
+Compiled jquery_ujs.js  (0ms)  (pid 4582)
+Compiled users.js  (208ms)  (pid 4582)
+Compiled application.js  (502ms)  (pid 4582)
+Completed 200 OK in 1160ms (Views: 1057.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-05 16:14:42 +0530
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-05 16:14:42 +0530
+Served asset /scaffolds.css - 200 OK (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-05 16:14:42 +0530
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-05 16:14:42 +0530
+Served asset /application.js - 200 OK (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-05 16:14:42 +0530
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-05 16:14:42 +0530
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-05 16:14:42 +0530
+Served asset /users.js - 200 OK (3ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-05 16:14:45 +0530
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (84.8ms)
+  Rendered users/new.html.erb within layouts/application (133.4ms)
+Completed 200 OK in 164ms (Views: 163.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-07-05 16:15:00 +0530
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zPPr1KUGt6Dq5Pv/vJ4CN5ECQkzMdV/nGtWZvjqe+6o=", "user"=>{"name"=>"cegprakash", "email"=>"cegprakash@gmail.com"}, "commit"=>"Create User"}
+Redirected to http://localhost:3000/users/4ff5702cc2c80811e6000001
+Completed 302 Found in 5ms
+
+
+Started GET "/users/4ff5702cc2c80811e6000001" for 127.0.0.1 at 2012-07-05 16:15:00 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4ff5702cc2c80811e6000001"}
+  Rendered users/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1137ms (Views: 83.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2012-07-05 16:15:32 +0530
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 34ms (Views: 7.2ms)
+
+
+Started GET "/users/4ff5702cc2c80811e6000001" for 127.0.0.1 at 2012-07-05 16:15:35 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4ff5702cc2c80811e6000001"}
+  Rendered users/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 10ms (Views: 8.0ms)
+
+
+Started GET "/users/4ff5702cc2c80811e6000001/edit" for 127.0.0.1 at 2012-07-05 16:15:39 +0530
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4ff5702cc2c80811e6000001"}
+  Rendered users/_form.html.erb (3.9ms)
+  Rendered users/edit.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 26ms (Views: 23.5ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-05 16:15:45 +0530
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (4.6ms)
+  Rendered users/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 13ms (Views: 11.9ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-07-05 16:15:54 +0530
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zPPr1KUGt6Dq5Pv/vJ4CN5ECQkzMdV/nGtWZvjqe+6o=", "user"=>{"name"=>"test", "email"=>"test@gmail.com"}, "commit"=>"Create User"}
+Redirected to http://localhost:3000/users/4ff57062c2c80811e6000006
+Completed 302 Found in 4ms
+
+
+Started GET "/users/4ff57062c2c80811e6000006" for 127.0.0.1 at 2012-07-05 16:15:54 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4ff57062c2c80811e6000006"}
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 46ms (Views: 5.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2012-07-05 16:15:57 +0530
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 10ms (Views: 8.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2012-07-05 16:15:58 +0530
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 12ms (Views: 9.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-05 16:15:58 +0530
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-05 16:15:58 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-05 16:15:58 +0530
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-05 16:15:58 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-05 16:15:58 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-05 16:15:58 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-05 16:15:58 +0530
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2012-07-05 16:15:59 +0530
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 10ms (Views: 8.1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-05 16:15:59 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
